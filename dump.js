@@ -25,7 +25,7 @@ async function dumpArchive () {
     keyboards.push(keyboard)
   };
 
-  console.log(JSON.stringify(keyboards))
+  console.log(JSON.stringify(keyboards, null, 4))
 }
 
 function parseKeyboardRow (row) {
